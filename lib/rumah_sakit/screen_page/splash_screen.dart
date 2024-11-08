@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_4/lat_8_juni/screen_page/page_provinsi.dart';
+import 'package:mobile_4/rumah_sakit/screen_page/page_provinsi.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

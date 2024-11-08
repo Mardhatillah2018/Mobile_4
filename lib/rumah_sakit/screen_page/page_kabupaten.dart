@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:mobile_4/lat_8_juni/Model/model_kabupaten';
-import 'package:mobile_4/lat_8_juni/screen_page/page_rs.dart';
+import 'package:mobile_4/rumah_sakit/screen_page/page_rs.dart';
 
 class PageKabupaten extends StatefulWidget {
   final String idProv;

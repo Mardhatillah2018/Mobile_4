@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
-import 'package:mobile_4/lat_8_juni/Model/model_kamar.dart' as kamarModel;
-import 'package:mobile_4/lat_8_juni/Model/model_rs.dart' as rsModel;
+import 'package:mobile_4/rumah_sakit/Model/model_kamar.dart' as kamarModel;
+import 'package:mobile_4/rumah_sakit/Model/model_rs.dart' as rsModel;
 
 class PageDetailRS extends StatefulWidget {
   final rsModel.Datum rumahSakit;
