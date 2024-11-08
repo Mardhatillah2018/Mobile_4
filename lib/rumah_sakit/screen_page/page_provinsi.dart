@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:mobile_4/lat_8_juni/Model/model_provinsi.dart';
+import 'package:mobile_4/rumah_sakit/Model/model_provinsi.dart';
 import 'page_kabupaten.dart';
 
 class PageBeranda extends StatefulWidget {
@@ -98,7 +98,7 @@ class _PageBerandaState extends State<PageBeranda> {
                     fontSize: 15,
                     fontWeight: FontWeight.bold,
                     fontFamily: 'Montserrat',
-                    color: Color(0xFFcc6066),
+                    color: Color(0xFF023047),
                   ),
                 ),
               ],

@@ -50,6 +50,14 @@ android {
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
+    defaultConfig {
+        minSdkVersion 20
+        // Tetapkan nilai lain sesuai kebutuhan aplikasi Anda
+        applicationId "com.example.mobile_4"
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
 
     buildTypes {
         release {

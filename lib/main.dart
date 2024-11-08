@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_4/lat_8_juni/screen_page/page_provinsi.dart';
-import 'package:mobile_4/lat_8_juni/screen_page/splash_screen.dart';
+import 'package:mobile_4/lat_20_juni/PageEvent.dart';
+import 'package:mobile_4/rumah_sakit/screen_page/page_provinsi.dart';
+import 'package:mobile_4/rumah_sakit/screen_page/splash_screen.dart';
+import 'package:mobile_4/lat_notes/page_notes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashScreen(),
+      home: PageListEvent(),
       debugShowCheckedModeBanner: false,
     );
   }
